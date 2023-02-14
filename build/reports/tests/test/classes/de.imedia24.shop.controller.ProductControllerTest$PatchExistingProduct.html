@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - PATCH /products</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>PATCH /products</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/de.imedia24.shop.controller.html">de.imedia24.shop.controller</a> &gt; ProductControllerTest$PatchExistingProduct</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.031s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">should return NOT FOUND if given product is not a valid product()</td>
+<td class="success">0.031s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2023-02-14 12:18:01.118  INFO 31442 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [de.imedia24.shop.controller.ProductControllerTest$PatchExistingProduct], using SpringBootContextLoader
+2023-02-14 12:18:01.118  INFO 31442 --- [    Test worker] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [de.imedia24.shop.controller.ProductControllerTest$PatchExistingProduct]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-14 12:18:01.118  INFO 31442 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [de.imedia24.shop.controller.ProductControllerTest$PatchExistingProduct]: PatchExistingProduct does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-14 12:18:01.120  INFO 31442 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration de.imedia24.shop.ShopApplication for test class de.imedia24.shop.controller.ProductControllerTest$PatchExistingProduct
+2023-02-14 12:18:01.121  INFO 31442 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-14 12:18:01.121  INFO 31442 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7d0a1a18, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@58366338, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2e74c933, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@375f72ba, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1aa87493, org.springframework.test.context.support.DirtiesContextTestExecutionListener@716cfb5d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@79598912, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@355ffe21, org.springframework.test.context.event.EventPublishingTestExecutionListener@6c0a18f5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7a2ab03a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4f0ea774, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@56ae642, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@399b9baa, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@169f57c3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2c107763]
+
+MockHttpServletRequest:
+      HTTP Method = PATCH
+      Request URI = /products
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json;charset=UTF-8&quot;, Content-Length:&quot;96&quot;]
+             Body = {&quot;sku&quot;:&quot;0&quot;,&quot;name&quot;:&quot;Product 1&quot;,&quot;description&quot;:&quot;description for product 1&quot;,&quot;price&quot;:25.3,&quot;stock&quot;:10}
+    Session Attrs = {}
+
+Handler:
+             Type = de.imedia24.shop.controller.ProductController
+           Method = de.imedia24.shop.controller.ProductController#updateProduct(ProductEntity)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8.2</a> at Feb 14, 2023, 12:18:01 PM</p>
+</div>
+</div>
+</body>
+</html>

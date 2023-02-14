@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PATCH /products" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-14T11:18:01" hostname="Bouchninas-MacBook-Pro.local" time="0.031">
+  <properties/>
+  <testcase name="should return NOT FOUND if given product is not a valid product()" classname="de.imedia24.shop.controller.ProductControllerTest$PatchExistingProduct" time="0.031"/>
+  <system-out><![CDATA[2023-02-14 12:18:01.118  INFO 31442 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [de.imedia24.shop.controller.ProductControllerTest$PatchExistingProduct], using SpringBootContextLoader
+2023-02-14 12:18:01.118  INFO 31442 --- [    Test worker] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [de.imedia24.shop.controller.ProductControllerTest$PatchExistingProduct]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-14 12:18:01.118  INFO 31442 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [de.imedia24.shop.controller.ProductControllerTest$PatchExistingProduct]: PatchExistingProduct does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-14 12:18:01.120  INFO 31442 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration de.imedia24.shop.ShopApplication for test class de.imedia24.shop.controller.ProductControllerTest$PatchExistingProduct
+2023-02-14 12:18:01.121  INFO 31442 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-14 12:18:01.121  INFO 31442 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7d0a1a18, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@58366338, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2e74c933, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@375f72ba, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1aa87493, org.springframework.test.context.support.DirtiesContextTestExecutionListener@716cfb5d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@79598912, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@355ffe21, org.springframework.test.context.event.EventPublishingTestExecutionListener@6c0a18f5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7a2ab03a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4f0ea774, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@56ae642, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@399b9baa, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@169f57c3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2c107763]
+
+MockHttpServletRequest:
+      HTTP Method = PATCH
+      Request URI = /products
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"96"]
+             Body = {"sku":"0","name":"Product 1","description":"description for product 1","price":25.3,"stock":10}
+    Session Attrs = {}
+
+Handler:
+             Type = de.imedia24.shop.controller.ProductController
+           Method = de.imedia24.shop.controller.ProductController#updateProduct(ProductEntity)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
